@@ -1,0 +1,114 @@
+section{
+	width: 100%;
+	display: flex;
+	padding-left: 2.5%;
+}
+.proteina{
+	width: 70%;
+	margin-right: 2.5%;
+}
+.proteina > h2{
+	font-size: 2em;
+	color: rgb(0, 0, 40);
+	font-family: 'Lora', serif;
+	margin-bottom: 3%;
+	border-bottom: solid 2px #f2f2f2;
+	width: 80%;
+}
+/*---------------------------------------------------*/
+.proteina .derecha {
+	width: 100%;
+	display: flex;	
+	margin-bottom: 2.5%;
+}
+.proteina .derecha .textoDerecha{
+	width: 50%;
+	
+	margin-right: 2.5%;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.proteina .derecha .textoDerecha > *{
+	margin-bottom: 7%;
+}
+.proteina .derecha >img{
+	width: 49%;
+	height: 275px;
+	
+}
+.proteina .derecha .textoDerecha h2{
+	font-family: 'Lora', serif;
+	color: black;
+	font-size: 1.4em;
+}
+.proteina .derecha .textoDerecha p{
+	font-size: 0.9em;
+	font-family: 'Roboto', sans-serif;
+}
+.proteina .derecha .textoDerecha .prebot{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.proteina .derecha .textoDerecha .verReceta{
+	width: 30%;
+	border: solid 2px black;
+	text-align: center;
+	padding: 3px;
+	border-radius: 10px;
+	font-size: 0.9em;
+	font-family: 'Lora', serif;
+	color: black;
+}
+.proteina .derecha .textoDerecha .verReceta:hover{
+	border: solid 2px #FFD13A;
+	color: #FFD13A;
+}
+/*-------------------------------------------------*/
+.proteina .izquierda{
+	width: 100%;
+	display: flex;
+	margin-bottom:2.5%;
+
+}
+.proteina .izquierda .textoIzquierda{
+	width: 50%;
+	margin-left: 2.5%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.proteina .izquierda .textoIzquierda > *{
+	margin-bottom: 7%;
+}
+.proteina .izquierda .textoIzquierda h2{
+	font-family: 'Lora', serif;
+	color: black;
+	font-size: 1.4em;
+}
+.proteina .izquierda img{
+	width: 48.5%;
+	height: 275px;	
+}
+.proteina .izquierda .textoIzquierda p{
+	font-size: 0.9em;
+	font-family: 'Roboto', sans-serif;
+}
+.proteina .izquierda .textoIzquierda .verReceta{
+	width: 30%;
+	border: solid 2px black;
+	text-align: center;
+	padding: 3px;
+	border-radius: 10px;
+	font-size: 0.9em;
+	font-family: 'Lora', serif;
+	color: black;
+}
+.proteina .izquierda .textoIzquierda .verReceta:hover{
+	border: solid 2px #FFD13A;
+	color: #FFD13A;
+}

@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+.prebaner{
+	
+	width: 100%;
+	position: relative;
+}
+.slideshow{
+	margin-bottom: 3%;
+	width: 100%;
+}
+
+.slider >  ul, li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.slider li img{
+	width: 100%;
+}
+.pagination{
+	position: absolute;
+	top: 94%;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.pagination li{
+	font-size: 0.9em;
+	margin: 2px 5px;
+	color: #858585;
+	cursor: pointer;
+}

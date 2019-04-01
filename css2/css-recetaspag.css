@@ -1,0 +1,107 @@
+.prepre{
+	display: flex;
+}
+/*--------------------------------------------*/
+.prerecetas{
+	width: 70%;
+	margin-left: 3%;
+	margin-right: 3%;
+	
+}
+/*------------------------------------------*/
+.derecha {
+	width: 100%;
+	display: flex;	
+	margin-bottom: 2.5%;
+}
+.derecha .textoDerecha{
+	width: 50%;
+	
+	margin-right: 2.5%;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.derecha .textoDerecha > *{
+	margin-bottom: 7%;
+}
+.derecha >img{
+	width: 49%;
+	height: 275px;
+	
+}
+.derecha .textoDerecha h2{
+	font-family: 'Lora', serif;
+	color: black;
+	font-size: 1.4em;
+}
+.derecha .textoDerecha p{
+	font-size: 0.9em;
+	font-family: 'Roboto', sans-serif;
+}
+.derecha .textoDerecha .prebot{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.derecha .textoDerecha .verReceta{
+	width: 30%;
+	border: solid 2px black;
+	text-align: center;
+	padding: 3px;
+	border-radius: 10px;
+	font-size: 0.9em;
+	font-family: 'Lora', serif;
+	color: black;
+}
+.derecha .textoDerecha .verReceta:hover{
+	border: solid 2px #FFD13A;
+	color: #FFD13A;
+}
+/*-----------------------------------------------*/
+.izquierda{
+	width: 100%;
+	display: flex;
+	margin-bottom:2.5%;
+
+}
+.izquierda .textoIzquierda{
+	width: 50%;
+	margin-left: 2.5%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.izquierda .textoIzquierda > *{
+	margin-bottom: 7%;
+}
+.izquierda .textoIzquierda h2{
+	font-family: 'Lora', serif;
+	color: black;
+	font-size: 1.4em;
+}
+.izquierda img{
+	width: 48.5%;
+	height: 275px;	
+}
+.izquierda .textoIzquierda p{
+	font-size: 0.9em;
+	font-family: 'Roboto', sans-serif;
+}
+.izquierda .textoIzquierda .verReceta{
+	width: 30%;
+	border: solid 2px black;
+	text-align: center;
+	padding: 3px;
+	border-radius: 10px;
+	font-size: 0.9em;
+	font-family: 'Lora', serif;
+	color: black;
+}
+.izquierda .textoIzquierda .verReceta:hover{
+	border: solid 2px #FFD13A;
+	color: #FFD13A;
+}

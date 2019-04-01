@@ -1,0 +1,150 @@
+/*font-family: 'Lilita One', cursive;
+font-family: 'Lora', serif;
+font-family: 'Roboto', sans-serif;*/
+.listaDeRecetas1{
+	margin: 0% 6% 0% 3%;
+}
+.cuerpo{
+	width: 100%;
+	margin: 0% 0% 0% 3%;
+	display: flex;
+}
+/*-----------------------------------------*/
+.consejos{
+	width: 70%;
+}
+
+/*----------------------------------------*/
+.consejos .ultimaEntrada{
+	width: 100%;
+}	
+/*-----------------------------------------*/
+.receta{
+	display: flex;
+	margin-bottom: 3%; 
+}
+.receta > a{
+	width: 50%;
+}
+.receta > a img{
+	width: 100%;
+	height: 275px;
+}
+.receta > .conr{
+	width: 50%;
+	height: 275px;
+	/*background: green;*/
+	padding: 4%;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.receta .conr > *{
+	margin-bottom: 7%;
+	font-family: 'Roboto', sans-serif;
+}
+/*--------------------------------*/
+.receta .conr .prebot{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+/*-------------------------------*/
+.receta .conr #title{
+	font-family: 'Lora', serif;
+	color: black;
+	font-size: 1.4em;
+}
+.receta .conr p{
+	font-size: 0.9em;
+}
+.receta .conr .boton{
+	width: 40%;
+	border: solid 2px black;
+	text-align: center;
+	padding: 3px;
+	border-radius: 10px;
+	font-size: 0.9em;
+	font-family: 'Lora', serif;
+	color: black;
+}
+.receta .conr .boton:hover{
+	color: #FFD13A;
+	border: solid 2px #FFD13A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*.receta{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	margin-bottom: 3%;
+}
+.receta .conr{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	background: rgba(46, 46, 46, 0.8 );
+	height: 280px;
+	transform: translateX(5%);	
+	padding: 20px;
+	justify-content: center;
+	
+}
+.receta .conr > *{
+	margin-bottom: 7%;
+}
+.receta .conr #title{
+	
+	font-family: 'Lilita One', cursive;
+	color: white;
+	font-size: 1.4em;
+	text-align: left;
+}
+.receta .conr #boton {
+	color: white;
+	border: solid 3px white;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 0.9em;
+	width: 40%;
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+.receta .conr p{
+	font-family: 'Lora', serif;
+	color: white;
+}
+
+
+
+
+.receta img{
+	width: 350px;
+	height: 300px;
+}

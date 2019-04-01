@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+/*----------------------------*/
+header{
+	width: 100%;
+}
+/*----------------------------*/
+.title{
+	display: flex;
+	width: 100%;
+	/*background: rgb(16 89 171);*/
+	background: #FFD13A;
+	justify-content: flex-end;
+	align-items: baseline;
+	padding: 6px 0px;
+	align-items: baseline;
+	
+}
+.title h1{
+	font-size: 3.5em;
+	color: rgba(0, 0, 40);
+	font-family: 'Work Sans', sans-serif;
+	margin-right: 4px;
+	
+}
+.title h2{
+	font-size: 3.5em;
+	color: rgba(0, 0, 40);
+	font-family: 'Work Sans', sans-serif;
+	padding: 0px;
+}
+.title .redes{
+	width: 37%;
+	display: flex;
+	justify-content: flex-end;
+	color: rgba(0, 0, 40);
+	font-size: 1.3em;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+.title .redes a {
+	color: rgba(0, 0, 40);
+	font-size: 0.7em;
+	border: solid 1px rgba(0, 0, 40);
+	padding: 3px;
+	margin-left: 5px;
+}
+.redes span:hover{
+	cursor: pointer;
+}
+/*-----------------------------------------------*/
+.activo{
+	height: 35px;
+	box-shadow: 10px 5px 5px #F5F5F5;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.activo label{
+	font-size: 1.5em;
+	cursor: pointer;
+	display: none;
+}
+#icon-btnmenu{
+	display: none;
+}
+.menu ul{
+	display: flex;
+}
+.menu ul ul{
+	display: none;
+}
+.menu a{
+	display: block;
+	padding: 7px 7px;
+	color: black;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 0.9em;
+}
+.menu a:hover{
+	text-decoration: underline;
+	color: #FFD13A;
+}
+.menu ul li:hover ul{
+	display: block;
+	position: absolute;
+	z-index: 1;
+	transform: translateY(60%);
+	background: white;
+	/*box-shadow: 5px 5px 5px #F5F5F5;*/
+}
+.menu ul li:hover ul li{
+	border-top: 2px solid #F5F5F5;
+	background: white;
+}
+.menu ul li:hover ul a{
+	color: #FFD13A;	
+}
+@media (max-width: 770px){
+	.activo {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.activo label{
+		display: block;
+		
+	}	
+	.activo .menu{
+		position: absolute;
+		top: 110px;
+		left: 0px;
+		width: 30%;
+		box-shadow: 5px 5px 5px #F5F5F5;
+		transform: translateX(-100%);
+		transition: all 0.2s;
+		z-index: 3;
+	}
+	.menu li{
+		border-top: 2px solid #F5F5F5;
+		background: white;
+	}
+	.menu ul{
+		flex-direction: column;
+	}
+	.menu ul li:hover ul{
+		display: none;
+		position: static;
+	}
+	.menu a span{
+		position: absolute;
+		right: 5px;
+	}
+	#icon-btnmenu:checked ~ .menu{
+		transform: translateX(0%);
+	}
+
+}

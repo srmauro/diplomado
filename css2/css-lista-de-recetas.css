@@ -1,0 +1,35 @@
+.listaDeRecetas1{
+	width: 30%;
+	margin: 0% 3% 0% 0%;
+}
+.prea{
+	 
+	border-top: solid 3px rgb(245, 193, 14); 
+	padding: 10px 0px;
+}
+
+.listaDeRecetas1 .prea a{
+	font-size: 1.8em;	
+	font-family: 'Lora', serif;
+	color: black;
+}
+
+.listaDeRecetas1 ul{
+	width: 100%;
+}
+.listaDeRecetas1 ul li{
+	width: 100%;	
+	margin-bottom: 15px;
+	font-size: 1.1em;
+	padding: 10px;
+	color: #FFD13A;
+	background: rgb(0, 0, 40);
+}
+.rt a{
+	color: #FFD13A;
+	font-family: 'Lora', serif;
+	font-size: 0.9em;
+}
+.rt a:hover{
+	text-decoration: underline;
+}

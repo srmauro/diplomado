@@ -1,0 +1,41 @@
+section{
+	display: flex;
+	margin-bottom: 2.5%;
+}
+.articulo{
+	width: 70%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	
+}
+.articulo img{
+	width: 100px;
+}
+#img1{
+	width: 50%;
+	float: right;
+	margin: 0% 0% 1% 4%;
+}
+.articulo p{
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	text-indent: 3em;
+	font-size: 1em;
+	line-height: 1.5;
+	margin-bottom: 0.5em;
+}
+#img2{
+	float: left;
+	width: 55%;
+	margin: 4% 4% 4% 0%;
+}
+.articulo h2{
+	font-family: 'Lora', serif;
+	margin-bottom: 1em;
+}
+#img3{
+	width: 30%;
+	
+}
+
+
